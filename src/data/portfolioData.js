@@ -1,4 +1,5 @@
 
+const BASE_URL = import.meta.env.BASE_URL;
 
 export const personalInfo = {
   name: "Maryem Gomdi",
@@ -20,8 +21,7 @@ export const personalInfo = {
 
   availability: "Disponible pour un stage PFE et des opportunités professionnelles",
 
-  cvUrl: "/cv-maryem-gomdi.pdf",
-
+cvUrl: `${import.meta.env.BASE_URL}cv-maryem-gomdi.pdf`,
   socialLinks: {
     github: " https://github.com/maryemgomdi",
     linkedin: "https://www.linkedin.com/in/maryemgomdi",
@@ -228,7 +228,7 @@ export const experiences = [
       "Git",
     ],
 
-    proofImage: "/projects/certif/certif 3lm.jpg",
+   proofImage: `${BASE_URL}projects/certif/certif 3lm.jpg`,
     proofLabel: "Attestation de stage",
   },
 
@@ -262,8 +262,7 @@ export const experiences = [
       "MongoDB",
       "Git",
     ],
-
-    proofImage: "/projects/certif/datacertif.jpg",
+proofImage: `${BASE_URL}projects/certif/datacertif.jpg`,
     proofLabel: "Attestation de stage",
   },
 
@@ -322,7 +321,7 @@ export const projects = [
       "Aide à la décision agricole",
     ],
 
-    image: "/projects/certif/pepsmart.png",
+  image: `${BASE_URL}projects/certif/pepsmart.png`,
 
     demo: "",
   },
@@ -352,8 +351,7 @@ export const projects = [
       "Gestion des contenus pédagogiques",
     ],
 
-    image: "/projects/certif/edufrom.png",
-
+  image: `${BASE_URL}projects/certif/edufrom.png`,
     demo: "",
   },
 
@@ -380,7 +378,7 @@ export const projects = [
     "Gestion des catégories",
     "Interface responsive",
   ],
-  image: "/projects/certif/insurly.png",
+image: `${BASE_URL}projects/certif/insurly.png`,
 
   demo: "",
 },

@@ -49,7 +49,7 @@ function Education() {
     <span>Majore de promotion — 1ère année</span>
 
     <img
-      src="/projects/certif/preuve de major 1 ere.jpg"
+     src={`${import.meta.env.BASE_URL}projects/certif/preuve de major 1 ere.jpg`}
       alt="Majore de promotion première année"
     />
   </div>
@@ -58,7 +58,7 @@ function Education() {
     <span>Majore de promotion — 2ème année</span>
 
     <img
-      src="/projects/certif/preuve de major 2.jpg"
+     src={`${import.meta.env.BASE_URL}projects/certif/preuve de major 2.jpg`}
       alt="Majore de promotion deuxième année"
     />
   </div>
@@ -67,7 +67,7 @@ function Education() {
     <span>Prix de lauréate — 2ème année</span>
 
     <img
-      src="/projects/certif/prix 2.jpg"
+    src={`${import.meta.env.BASE_URL}projects/certif/prix 2.jpg`}
       alt="Prix de lauréate deuxième année"
     />
   </div>

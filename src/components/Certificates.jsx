@@ -28,7 +28,7 @@ const certificates = [
     title: "E-commerce and Online Business",
     organization: "Market Pro Club — FSEG Mahdia",
     year: "11 février 2026",
-    image: "/projects/certif/e commerce.jpg",
+  image: `${import.meta.env.BASE_URL}projects/certif/e commerce.jpg`,
   },
 ];
 

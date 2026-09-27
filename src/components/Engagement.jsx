@@ -40,7 +40,7 @@ const engagements = [
       "Contribution à l'organisation des événements",
     ],
 
-    image: "/projects/certif/tpl.jpg",
+   image: `${import.meta.env.BASE_URL}projects/certif/tpl.jpg`,
     imageLabel: "Participation TPL",
   },
 
@@ -61,7 +61,7 @@ const engagements = [
       "Présentation du projet devant un jury national",
     ],
 
-    image: "/projects/certif/injaz.jpg",
+  image: `${import.meta.env.BASE_URL}projects/certif/injaz.jpg`,
     imageLabel: "Certificat de participation",
   },
 ];
